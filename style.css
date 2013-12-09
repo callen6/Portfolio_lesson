@@ -15,10 +15,15 @@ a:visited{text-decoration: none;}
 
 
 /*navigation styles*/
-
+.navigation-offset-fix {
+	height: 150px;
+}
 .navigation-wrapper {
 	background: black;
 	margin-top: -21px;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
 }
 
 .navigation-wrapper a {
@@ -57,6 +62,11 @@ section {
 	text-align: center;
 }
 
+/*about styles*/
+
+.about-content {
+	font-size: 20px;
+}
 
 
 
